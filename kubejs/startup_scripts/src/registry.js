@@ -79,6 +79,21 @@ StartupEvents.registry('item', e =>{
   e.create('purified_sand').displayName('纯净沙子')
   e.create('coke_chunk').displayName('焦煤碎块')
   e.create('incomplete_coke_chunk').displayName('焦煤碎块(半成品)')
+  e.create('random_delivery_agreement').texture('kubejs:item/random_delivery_agreement')
+        .maxStackSize(16)
+        .useAnimation('bow')
+        .use((level, player, hand) => {
+            return true;
+        })
+        .useDuration(itemStack => 20)
+        .finishUsing((itemstack, level, entity) => {
+            if (level.isClientSide()) return itemstack
+            if (!entity.isPlayer()) return itemstack
+            let wares = global.getRandomWare()
+            itemstack.shrink(1)
+            entity.give(wares)
+            return itemstack
+        })
 })
 StartupEvents.registry('block', e =>{
   e.create('sheldonite_ore'). displayName('铂矿石').soundType('nether_ore').requiresTool(true).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool')

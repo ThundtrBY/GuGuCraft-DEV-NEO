@@ -7,7 +7,7 @@ ServerEvents.recipes(e => {
     e.remove({id: 'tfmg:mixing/liquid_plastic_from_propylene'})
 //Distillation recipe
     e.custom({
-        "type": "tfmg:advanced_distillation",
+        "type": "tfmg:distillation",
         "ingredients": [
       
           {
@@ -37,7 +37,7 @@ ServerEvents.recipes(e => {
       })
 // Adastra compat
       e.custom({
-        "type": "tfmg:advanced_distillation",
+        "type": "tfmg:distillation",
         "ingredients": [
       
           {

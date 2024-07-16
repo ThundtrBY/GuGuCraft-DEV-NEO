@@ -3,6 +3,7 @@
 .vscode/
 aes/
 config/
+crash-reports/
 GuGuCraft-DEV-NEO-natives/
 local/
 logs/
@@ -11,6 +12,7 @@ resourcepacks/
 saves/
 schematics/
 XaeroWaypoints/
+XaeroWaypoints_Backup032021/
 XaeroWorldMap/
 GuGuCraft-DEV-NEO.jar
 GuGuCraft-DEV-NEO.json
