@@ -1,0 +1,22 @@
+{
+  "type": "condition",
+  "replace": true,
+  "name": "chestloot",
+  "values": [
+    {
+      "factor": 100,
+      "value": "lostcities:chests/lostcitychest",
+      "range": "-100,100"
+    },
+    {
+      "factor": 100,
+      "value": "lostcities:chests/raildungeonchest",
+      "inpart": "rail_dungeon1"
+    },
+    {
+      "factor": 100,
+      "value": "lostcities:chests/raildungeonchest",
+      "inpart": "rail_dungeon2"
+    }
+  ]
+}
