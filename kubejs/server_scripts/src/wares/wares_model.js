@@ -104,8 +104,6 @@ const ChallengeWares = [
 
 ]
 
-
-
 const EggWares = [
     new SimpleWares([Item.of('numismatics:spur').withCount(1)], [Item.of('minecraft:dirt').withCount(1)], 8)
 ]
