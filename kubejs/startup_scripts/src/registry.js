@@ -72,6 +72,7 @@ StartupEvents.registry('item', e =>{
   e.create('purified_sand').displayName('纯净沙子')
   e.create('coke_chunk').displayName('焦煤碎块')
   e.create('incomplete_coke_chunk').displayName('焦煤碎块(半成品)')
+  e.create('common_lootbag').displayName('战利品袋')
   e.create('random_delivery_agreement').texture('kubejs:item/random_delivery_agreement')
         .maxStackSize(16)
         .useAnimation('bow')
