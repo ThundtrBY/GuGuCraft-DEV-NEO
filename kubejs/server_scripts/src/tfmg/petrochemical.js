@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
-    e.remove({id: 'tfmg:fractional_distillation/crude_oil'})
-    e.remove({id: 'tfmg:fractional_distillation/crude_oil_sus'})
+    e.remove({id: 'tfmg:distillation/crude_oil'})
+    e.remove({id: 'tfmg:distillation/crude_oil_no_naphtha'})
     e.remove({id: 'tfmg:distillation/heavy_oil'})
     e.remove({id: 'tfmg:distillation/naphtha'})
     e.remove({id: 'tfmg:mixing/liquid_plastic_from_ethylene'})
@@ -11,7 +11,7 @@ ServerEvents.recipes(e => {
         "ingredients": [
       
           {
-            "fluid": "tfmg:crude_oil_fluid",
+            "fluid": "tfmg:crude_oil",
             "nbt": {},
             "amount": 100
           }
