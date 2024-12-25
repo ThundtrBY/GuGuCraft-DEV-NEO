@@ -1,0 +1,16 @@
+filename = 'elytraslot-forge-6.4.0+1.20.1.jar'
+name = 'Elytra Slot (Fabric/Forge/Quilt)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e49103f6a50b09d2384aa11f46b6fc8c709bbbee'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5420532
+project-id = 317716

@@ -1,0 +1,16 @@
+filename = 'ati_structures(1.20)_v1.1.0_FORGE.jar'
+name = 'ATi Structures - Mod'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8d1b4c4e7e91bd15c8855ce6513dd41fc0e390f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5526323
+project-id = 964608
