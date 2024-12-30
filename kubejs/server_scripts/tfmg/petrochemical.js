@@ -6,6 +6,16 @@ ServerEvents.recipes(e => {
     e.remove({id: 'tfmg:mixing/liquid_plastic_from_ethylene'})
     e.remove({id: 'tfmg:mixing/liquid_plastic_from_propylene'})
 //Distillation recipe
+    e.recipes.createdieselgenerators.distillation(
+      [
+        Fluid.of("minecraft:water", 250), 
+        Fluid.of("minecraft:lava", 50)
+      ],
+      Fluid.of("minecraft:milk", 500),    // 仅支持一个输入
+      20,
+      "superheated"    // 此处支持 "" 、"heated" 以及 "superheated"，分别代表无需加热、需要加热以及超级加热
+    )
+
     e.custom({
         "type": "tfmg:advanced_distillation",
         "ingredients": [

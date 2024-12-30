@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kubejs:block/blast_furnace/block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "kubejs:block/blast_furnace/block"
+    },
+    "facing=south": {
+      "model": "kubejs:block/blast_furnace/block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/blast_furnace/block",
+      "y": 270
+    }
+  }
+}

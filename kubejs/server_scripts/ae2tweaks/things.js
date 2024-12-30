@@ -34,7 +34,7 @@ ServerEvents.recipes(e => {
     e.recipes.create.crushing(['ae2:sky_stone_block', Item.of('ae2:sky_dust').withChance(0.5)], 'ae2:sky_stone_block').processingTime(200)
     e.recipes.create.sequenced_assembly([
 		Item.of('kubejs:incomplete_matrix')
-	], 'tfmg:plastic_sheet', [ 
+	], 'createutilities:void_steel_ingot', [ 
         e.recipes.createFilling(transmatrix, [transmatrix, Fluid.of('kubejs:number_0',144)]),
         e.recipes.createFilling(transmatrix, [transmatrix, Fluid.of('kubejs:number_1',144)]),
         e.recipes.createFilling(transmatrix, [transmatrix, Fluid.of('kubejs:number_2',144)]),

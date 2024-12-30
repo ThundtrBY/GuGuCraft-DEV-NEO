@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+	  "front": "kubejs:block/blast_furnace",
+	  "side": "kubejs:block/fireproof_bricks",
+	  "top": "kubejs:block/fireproof_bricks"
+	}
+  }
